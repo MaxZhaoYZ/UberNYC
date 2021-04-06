@@ -11,7 +11,7 @@ https://public.tableau.com/profile/max.zhao2915#!/vizhome/UberNYC_16175917883130
  - Date/Time : The date and time of the Uber pickup
  - Lat : The latitude of the Uber pickup
  - Lon : The longitude of the Uber pickup
- - Base : The TLC base company code affiliated with the Uber pickup
+ - Base : The TLC(y Taxi and Limousine Commission) base company code affiliated with the Uber pickup
 2. NY Weather Data from 2014(Apr'14-July'14) with the folling columns:
  - Date
  - Temp. (°C)high
@@ -50,5 +50,10 @@ Dashboard
 ![Screen Shot 2021-04-06 at 11 18 46 AM](https://user-images.githubusercontent.com/69823722/113735123-f2247300-96c9-11eb-82d8-41f8d4f9bec6.png)
 Link:https://public.tableau.com/profile/max.zhao2915#!/vizhome/UberNYC_16175917883130/1_1
 
-
+- According to the map which displays the distribution of rides gepgraphically, we will find that the most of the Uber trips take place in Manhatten which is the most densely populated of New York City's 5 boroughs, and B02512 is the most affiliated code in this area.
+- A histogram to display the rides distribution among hours of the day. It shows that a large part of people in these areas working in the Manhattan and during the rush hour, people frequently call Uber for transportation on workdays.
+- On the contrary, during the weekends, people usually won't go out in the morning. There is a traffic peak at around 4pm, which means people tend to have more night lives during the weekends than the workdays.
+- The weekday trip number trend in different month and compare with the various weather conditions. It give infomation that the most two important factors affecting the Uber trips number are the precipitation and the average wind speed.
+- People would like to take more Uber trips from Tuesday to Friday
+  
 
