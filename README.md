@@ -41,7 +41,9 @@ The original data contains one Excel file with the weather infomation and 4 mont
 The first step is to import data into Python and using Pandas to convert it into the standard format. For example: load the data as 'str' data type first, then use'pd.to_datetime' and 'dt.strftime('%Y/%m/%d')' to convert date data into 'yyyy/mm/dd'
 ![Screen Shot 2021-04-05 at 5 20 24 PM](https://user-images.githubusercontent.com/69823722/113733726-bdfc8280-96c8-11eb-96a2-8f3852cd248b.png)
 
-After that, combined the Uber trips data for four month into one dataframe with 'pd.concat'. Then, the tables with Uber trip and weather data should be joined together based on the same date for analysis.
+After that, combined the Uber trips data for four month into one dataframe with 'pd.concat'. It also can be done by the new version of Tableau using the 'Edit Relationship'![Screen Shot 2021-04-06 at 11 22 31 AM](https://user-images.githubusercontent.com/69823722/113735870-a32b0d80-96ca-11eb-8e06-b844c734920b.png)
+
+Then, the tables with Uber trip and weather data should be joined together based on the same date for analysis.
 
 ### Data Visualization and Analysis
 Dashboard
